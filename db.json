@@ -28,17 +28,17 @@
 			"black":[2]		
 		},
 		"group_id": 1
-	},
+	}
     
   ],
   "permisison_group": [
-    { 	
-		"id": 1, 
-		"groupName": "hi5", 
-		"permissions":{
-			"white":[1,2],
-			"black":[2]		
+		{ 	
+			"id": 1, 
+			"groupName": "hi5", 
+			"permissions":{
+				"white":[1,2],
+				"black":[2]		
+			}
 		}
-	}
    ]
 }
