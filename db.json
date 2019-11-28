@@ -1,0 +1,44 @@
+{
+  "routes": [
+    { "id": 1, "route": "/doc" },
+    { "id": 2, "route": "/posts/*" },
+    { "id": 3, "route": "/posts/*/pepe" }
+  ],
+  "permisison_users": [
+    { 	"id": 1, 
+		"id_user": 1, 
+		"permissions":{
+			"white":[1,2],
+			"black":[2]		
+		},
+		"group_id": 1
+	},
+	{ 	"id": 2, 
+		"id_user": 2, 
+		"permissions":{
+			"white":[1,2],
+			"black":[2]		
+		},
+		"group_id": 1
+	},
+	{ 	"id": 3, 
+		"id_user": 5, 
+		"permissions":{
+			"white":[1,2],
+			"black":[2]		
+		},
+		"group_id": 1
+	},
+    
+  ],
+  "permisison_group": [
+    { 	
+		"id": 1, 
+		"groupName": "hi5", 
+		"permissions":{
+			"white":[1,2],
+			"black":[2]		
+		}
+	}
+   ]
+}
