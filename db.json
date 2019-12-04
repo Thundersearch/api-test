@@ -2,7 +2,8 @@
   "routes": [
     { "id": 1, "route": "/doc" },
     { "id": 2, "route": "/posts/*" },
-    { "id": 3, "route": "/posts/*/pepe" }
+    { "id": 3, "route": "/posts/*/pepe" },
+	{ "id": 4, "route": "/posts/loc" }
   ],
   "permisison_users": [
     	{ 	"id": 1, 
