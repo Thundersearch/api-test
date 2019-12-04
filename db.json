@@ -30,7 +30,10 @@
 	{ 	"id": 3, 
 		"id_user": 5, 
 		"permissions":{
-			"white":[1,2],
+			"white":{
+				"1":["GET","POST"],
+				"2":[]
+			},
 			"black":[2]		
 		},
 		"group_id": 1
@@ -42,7 +45,10 @@
 			"id": 1, 
 			"groupName": "hi5", 
 			"permissions":{
-				"white":[1,2],
+				"white":{
+				"1":[],
+				"2":["PUT"]
+			},
 				"black":[2]		
 			}
 		}
