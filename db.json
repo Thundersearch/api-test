@@ -9,7 +9,7 @@
 		"id_user": 1, 
 		"permissions":{
 			"white":{
-				"1":[]
+				"1":[],
 				"2":[]
 			},
 			"black":[3]		
@@ -20,7 +20,7 @@
 		"id_user": 2, 
 		"permissions":{
 			"white":{
-				"1":["GET","POST"]
+				"1":["GET","POST"],
 				"2":[]
 			},
 			"black":[2]		
